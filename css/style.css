@@ -1,0 +1,92 @@
+body {
+    background-color: #FFF7C9;
+    width: 80%;
+    margin: auto;
+}
+
+.navigation {
+    padding-top: 2%;
+    display: flex;
+}
+
+.navContainer {
+    display: flex;
+   
+}
+
+.navItems {
+    display: flex;
+    vertical-align: top;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+}
+
+.logo {
+ 
+    display: flex;
+    flex-direction: row;
+}
+
+.logo h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #001CCC;
+}
+
+.logo img {
+   height: 50%;
+   margin-left: auto;
+}
+
+.heroSection p {
+    font-family: "Work Sans", sans-serif; 
+    font-size: 1.5rem;
+    line-height: 142%;
+    width: 70%;
+    padding-left: 15%;
+}
+
+h2 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.6rem;
+    color: #001CCC;
+
+}
+
+.heroSection {
+    display: flex;
+}
+
+.heroSection li {
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #001CCC;
+}
+
+.sidelinks {
+    align-items: flex-start;
+}
+
+.heroSection li img {
+    height: 22px;
+    margin-right: auto;
+}
+
+.WorkContainer {
+    width: 70%; 
+}
+
+.workItem a {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
