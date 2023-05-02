@@ -7,10 +7,12 @@ body {
 .navigation {
     padding-top: 2%;
     display: flex;
+    justify-content: flex-end;
 }
 
 .navContainer {
     display: flex;
+    justify-content: flex-end;
    
 }
 
