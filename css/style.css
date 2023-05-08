@@ -5,28 +5,38 @@ body {
 }
 
 .navigation {
-    padding-top: 2%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-left: -5%;
 }
 
 .navContainer {
-    display: flex;
-    justify-content: flex-end;
-   
+    /* display: flex;  */
 }
 
 .navItems {
     display: flex;
     vertical-align: top;
+    align-items: center;
     font-family: "Work Sans", sans-serif;
     font-weight: 600;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.navItems a {
+    /* padding-right: 5%; */
+    /* justify-content: space-around; */
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .logo {
- 
     display: flex;
-    flex-direction: row;
+    float: left;
+    /* padding-right: 8%; */   
 }
 
 .logo h1 {
@@ -39,15 +49,9 @@ body {
 .logo img {
    height: 50%;
    margin-left: auto;
+   justify-content: space-around;
 }
 
-.heroSection p {
-    font-family: "Work Sans", sans-serif; 
-    font-size: 1.5rem;
-    line-height: 142%;
-    width: 70%;
-    padding-left: 15%;
-}
 
 h2 {
     font-family: "Work Sans", sans-serif;
@@ -58,33 +62,76 @@ h2 {
 
 .heroSection {
     display: flex;
+    justify-content: space-between;
+    padding: 5%;
 }
 
-.heroSection li {
+.heroSection p {
+    font-family: "Work Sans", sans-serif; 
+    font-size: 1.5rem;
+    line-height: 142%;
+    width: 70%;
     display: flex;
+    justify-content: flex-end;
+    /* padding-left: 15%; */
+}
+
+.sidelinksConnect {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* float: left; */
+    padding-left:0;
+    /* display: flex; */
+    /* justify-content: center; */
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
     color: #001CCC;
+    padding-bottom: 18%;
+    padding-left:0;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); 
+
 }
 
-.sidelinks {
-    align-items: flex-start;
+.iconLink {
+    display: flex;
+    justify-content: space-between;
 }
 
-.heroSection li img {
+.sidelinksConnect img {
+    height: 30%;
+    /* margin-left: auto; */
+    /* justify-content: space-around; */
+}
+
+/* .heroSection .sidelinks {
     height: 22px;
-    margin-right: auto;
-}
+    display: flex;
+    justify-content: space-between;
+    height: 6%;
+} */
 
 .WorkContainer {
     width: 70%; 
+    margin: auto;
+    padding-left: 6%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); 
 }
 
 .workItem a {
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 2.6rem;
+}
+
+.workSection {
+    padding: 10%;
+}
+
+.workItem {
+    padding-bottom: 2%;
 }
 
 footer p {
